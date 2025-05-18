@@ -1,0 +1,30 @@
+# Unity .gitignore
+
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+MemoryCaptures/
+
+# Rider
+.idea/
+*.sln
+*.csproj
+*.user
+*.pidb
+*.booproj
+*.svd
+*.suo
+*.userprefs
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+
+# VSCode
+.vscode/
+
+# Unity Cache
+[Uu]serSettings/
