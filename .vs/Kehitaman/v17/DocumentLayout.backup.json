@@ -3,12 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\JORDY\\Downloads\\GP\\Kehitaman\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{CCB34D97-F9A0-548F-E798-D36BDC9DE6F8}|Assembly-CSharp.csproj|c:\\users\\jordy\\downloads\\gp\\kehitaman\\assets\\scripts\\camerafollowup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CCB34D97-F9A0-548F-E798-D36BDC9DE6F8}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\camerafollowup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{CCB34D97-F9A0-548F-E798-D36BDC9DE6F8}|Assembly-CSharp.csproj|c:\\users\\jordy\\downloads\\gp\\kehitaman\\assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CCB34D97-F9A0-548F-E798-D36BDC9DE6F8}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CCB34D97-F9A0-548F-E798-D36BDC9DE6F8}|Assembly-CSharp.csproj|c:\\users\\jordy\\downloads\\gp\\kehitaman\\assets\\scripts\\saveloadhandler_playerpref.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CCB34D97-F9A0-548F-E798-D36BDC9DE6F8}|Assembly-CSharp.csproj|C:\\Users\\JORDY\\Downloads\\GP\\Kehitaman\\assets\\scripts\\saveloadhandler_playerpref.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CCB34D97-F9A0-548F-E798-D36BDC9DE6F8}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\saveloadhandler_playerpref.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CCB34D97-F9A0-548F-E798-D36BDC9DE6F8}|Assembly-CSharp.csproj|C:\\Users\\JORDY\\Downloads\\GP\\Kehitaman\\assets\\scripts\\health.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CCB34D97-F9A0-548F-E798-D36BDC9DE6F8}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\health.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,11 +26,36 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "CameraFollowUp.cs",
+              "DocumentMoniker": "C:\\Users\\JORDY\\Downloads\\GP\\Kehitaman\\Assets\\Scripts\\CameraFollowUp.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CameraFollowUp.cs",
+              "ToolTip": "C:\\Users\\JORDY\\Downloads\\GP\\Kehitaman\\Assets\\Scripts\\CameraFollowUp.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CameraFollowUp.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T05:06:19.71Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Health.cs",
+              "DocumentMoniker": "C:\\Users\\JORDY\\Downloads\\GP\\Kehitaman\\Assets\\Scripts\\Health.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Health.cs",
+              "ToolTip": "C:\\Users\\JORDY\\Downloads\\GP\\Kehitaman\\Assets\\Scripts\\Health.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Health.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T03:20:26.082Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "SaveLoadHandler_PlayerPref.cs",
               "DocumentMoniker": "C:\\Users\\JORDY\\Downloads\\GP\\Kehitaman\\Assets\\Scripts\\SaveLoadHandler_PlayerPref.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\SaveLoadHandler_PlayerPref.cs",
@@ -30,18 +63,17 @@
               "RelativeToolTip": "Assets\\Scripts\\SaveLoadHandler_PlayerPref.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-19T03:01:40.602Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-19T03:01:40.602Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "PlayerController.cs",
               "DocumentMoniker": "C:\\Users\\JORDY\\Downloads\\GP\\Kehitaman\\Assets\\Scripts\\PlayerController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerController.cs",
               "ToolTip": "C:\\Users\\JORDY\\Downloads\\GP\\Kehitaman\\Assets\\Scripts\\PlayerController.cs",
               "RelativeToolTip": "Assets\\Scripts\\PlayerController.cs",
-              "ViewState": "AgIAACgAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-18T11:59:00.861Z",
               "EditorCaption": ""
