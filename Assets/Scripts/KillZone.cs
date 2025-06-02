@@ -8,6 +8,7 @@ public class KillZone : MonoBehaviour
     {
         if(collision.CompareTag("Player"))
         {
+            FindObjectOfType<GameOverManager>()?.TriggerGameOver();
             Destroy(collision.gameObject);
         }
     }
