@@ -6,6 +6,7 @@ public class PlayerController : MonoBehaviour
 {
     [SerializeField] float jumpforce;
     [SerializeField] float movespeed;
+    private Animator anim;
     private Rigidbody2D rb;
     private bool isGrounded = false;
     public LayerMask groundLayer;
@@ -16,6 +17,7 @@ public class PlayerController : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         rb.freezeRotation = true;
+        anim = GetComponent<Animator>();
     }
 
     void Update()
@@ -25,10 +27,17 @@ public class PlayerController : MonoBehaviour
 
         isGrounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, groundLayer);
 
+        if (moveX > 0.01f)
+            transform.localScale = new Vector3(3, 3, 3);
+
+        else if(moveX < -0.01f)
+            transform.localScale = new Vector3(-3, 3, 3);
+
         if (Input.GetKeyDown(KeyCode.Space) && isGrounded)
         {
             Jump();
         }
+        anim.SetBool("Run", moveX != 0);
     }
 
     void Jump()
