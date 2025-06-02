@@ -20,6 +20,8 @@ public class GameOverManager : MonoBehaviour
 
         isGameOver = true;
 
+        FindObjectOfType<ScoreManager>()?.SaveScore();
+
         if (gameOverPanel != null)
             gameOverPanel.SetActive(true);
 
