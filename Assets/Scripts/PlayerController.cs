@@ -37,7 +37,7 @@ public class PlayerController : MonoBehaviour
         {
             Jump();
         }
-        anim.SetBool("Run", moveX != 0);
+        anim.SetBool("run", moveX != 0);
     }
 
     void Jump()
